@@ -100,12 +100,12 @@ const restaurantData = [
 ];
 const createFragment = () => document.createDocumentFragment();
 const CATEGORY_IMG_SRC = {
-  "한식": `../public/assets/category-korean.png`,
-  "중식": `../public/assets/category-chinese.png`,
-  "일식": `../public/assets/category-japanese.png`,
-  "양식": `../public/assets/category-western.png`,
-  "아시안": `../public/assets/category-asian.png`,
-  "기타": `../public/assets/category-etc.png`
+  "한식": `../assets/category-korean.png`,
+  "중식": `../assets/category-chinese.png`,
+  "일식": `../assets/category-japanese.png`,
+  "양식": `../assets/category-western.png`,
+  "아시안": `../assets/category-asian.png`,
+  "기타": `../assets/category-etc.png`
 };
 const createRestaurantListItem = ({
   category,
